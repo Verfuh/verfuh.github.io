@@ -9,7 +9,7 @@ function cancel(){
 const texts = [
     "DESENVOLVEDOR FRONT END",
     "DESENVOLVEDOR BACK END",
-    "DESENVOLVER FULL STACK"
+    "DESENVOLVEDOR FULL STACK"
 ]
 
 let speed = 100;
