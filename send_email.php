@@ -14,7 +14,7 @@ $subject = filter_var($data['subject'], FILTER_SANITIZE_STRING);
 $message = filter_var($data['message'], FILTER_SANITIZE_STRING);
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo json_encode(['success' => false, 'message' => 'Email tidak valid']);
+    echo json_encode(['success' => false, 'message' => 'Email Inválido']);
     exit;
 }
 
