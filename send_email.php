@@ -31,6 +31,6 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 if (mail($to, $subject, $email_content, $headers)) {
     echo json_encode(['success' => true]);
 } else {
-    echo json_encode(['success' => false, 'message' => 'Gagal mengirim email']);
+    echo json_encode(['success' => false, 'message' => 'Falha ao enviar o e-mail']);
 }
 ?>
