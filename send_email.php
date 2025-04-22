@@ -22,7 +22,7 @@ $to = "cgvonryn@gmail.com";
 
 $email_content = "Nama: $name\n";
 $email_content .= "Email: $email\n";
-$email_content .= "Pesan:\n$message";
+$email_content .= "Pesan: $message\n";
 
 $headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
